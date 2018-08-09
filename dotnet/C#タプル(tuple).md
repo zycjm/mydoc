@@ -19,9 +19,13 @@ C#はオブジェクト指向言語であり、クラスと構造体の豊富な
 タプルを作成するには、各メンバーを値に割り当てます。
 
 var user = ("userId","userName");
+
 //或いは
+
 (string UserId,string UserName) user = ("userId","userName");
+
 //或いは
+
 var user = (UserId:"userId",UserName:"userName");
 
 このような、タプルは「データを複数並べたもの」です。
